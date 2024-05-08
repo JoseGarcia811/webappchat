@@ -18,8 +18,8 @@ export class ChatService {
   }
 
   initConnenctionSocket() {
-    const url = 'https://chatwebsocket-idvc.onrender.com/chat-socket';
-    const socket = new SockJS(url);
+    const url = 'https://chatwebsockets-7s72.onrender.com/chat-socket';
+    const socket = new SockJS(url); 
     this.stompClient = Stomp.over(socket);
   }
 
